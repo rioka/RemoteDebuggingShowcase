@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
+    <UserSecretsId>8ff84fe1-bf69-4eeb-a2d4-6b5a54d5eec1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc" Version="2.46.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="NerdVision" Version="1.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RemoteDebuggingShowcase.Core\RemoteDebuggingShowcase.Core.csproj" />
+  </ItemGroup>
+
+</Project>
