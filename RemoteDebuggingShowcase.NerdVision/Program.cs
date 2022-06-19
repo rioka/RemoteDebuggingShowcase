@@ -16,29 +16,10 @@ namespace RemoteDebuggingShowcase.NerdVision
         .Build();
 
       Initialize(config);
-      Run(config);
+      new BasicSample().Run(config);
     }
 
     #region Internals
-
-    private static void Run(IConfiguration config)
-    {
-      Console.WriteLine("Hi there!");
-
-      var foo = new Foo(config, new Bar());
-      while (true)
-      {
-        Console.Write("What do you want an answer for? (Enter 'Q' to quit): ");
-        var reason = Console.ReadLine();
-
-        if (reason.Equals("Q", StringComparison.OrdinalIgnoreCase))
-        {
-          break;
-        }
-
-        Console.WriteLine($"Mhh... maybe the answer to {reason} is {foo.Run(reason)}");
-      }
-    }
 
     private static void Initialize(IConfiguration config)
     {
