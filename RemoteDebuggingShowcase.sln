@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBDC832E-491A-4942-ADD5-04C0101B8941}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebuggingShowcase.Core", "RemoteDebuggingShowcase.Core\RemoteDebuggingShowcase.Core.csproj", "{1028F1BA-DC30-488E-AC50-D5AA37F2697D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1028F1BA-DC30-488E-AC50-D5AA37F2697D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1028F1BA-DC30-488E-AC50-D5AA37F2697D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1028F1BA-DC30-488E-AC50-D5AA37F2697D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1028F1BA-DC30-488E-AC50-D5AA37F2697D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
