@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebuggingShowcase.Roo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebuggingShowcase.NerdVision", "RemoteDebuggingShowcase.NerdVision\RemoteDebuggingShowcase.NerdVision.csproj", "{061C5A82-C484-466A-86B0-1DBADCBCB831}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{7E095C3E-7B40-4B01-AEE1-C09DA2A82685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebuggingShowcase.WebApi.Rookout", "RemoteDebuggingShowcase.WebApi.Rookout\RemoteDebuggingShowcase.WebApi.Rookout.csproj", "{A2C28F47-D775-48DB-B6FB-D0F1F5EE8C76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +35,12 @@ Global
 		{061C5A82-C484-466A-86B0-1DBADCBCB831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061C5A82-C484-466A-86B0-1DBADCBCB831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061C5A82-C484-466A-86B0-1DBADCBCB831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C28F47-D775-48DB-B6FB-D0F1F5EE8C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C28F47-D775-48DB-B6FB-D0F1F5EE8C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C28F47-D775-48DB-B6FB-D0F1F5EE8C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C28F47-D775-48DB-B6FB-D0F1F5EE8C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2C28F47-D775-48DB-B6FB-D0F1F5EE8C76} = {7E095C3E-7B40-4B01-AEE1-C09DA2A82685}
 	EndGlobalSection
 EndGlobal
