@@ -1,17 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBDC832E-491A-4942-ADD5-04C0101B8941}"
 	ProjectSection(SolutionItems) = preProject
-		LICENSE = LICENSE
 		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE = LICENSE
+		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebuggingShowcase.Core", "RemoteDebuggingShowcase.Core\RemoteDebuggingShowcase.Core.csproj", "{1028F1BA-DC30-488E-AC50-D5AA37F2697D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteDebuggingShowcase.Core", "RemoteDebuggingShowcase.Core\RemoteDebuggingShowcase.Core.csproj", "{1028F1BA-DC30-488E-AC50-D5AA37F2697D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebuggingShowcase.Rookout", "RemoteDebuggingShowcase.Rookout\RemoteDebuggingShowcase.Rookout.csproj", "{52A3B36C-23C0-4645-AC80-30D50CA37CD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteDebuggingShowcase.Rookout", "RemoteDebuggingShowcase.Rookout\RemoteDebuggingShowcase.Rookout.csproj", "{52A3B36C-23C0-4645-AC80-30D50CA37CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebuggingShowcase.NerdVision", "RemoteDebuggingShowcase.NerdVision\RemoteDebuggingShowcase.NerdVision.csproj", "{061C5A82-C484-466A-86B0-1DBADCBCB831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteDebuggingShowcase.NerdVision", "RemoteDebuggingShowcase.NerdVision\RemoteDebuggingShowcase.NerdVision.csproj", "{061C5A82-C484-466A-86B0-1DBADCBCB831}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,5 +37,8 @@ Global
 		{061C5A82-C484-466A-86B0-1DBADCBCB831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061C5A82-C484-466A-86B0-1DBADCBCB831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061C5A82-C484-466A-86B0-1DBADCBCB831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
