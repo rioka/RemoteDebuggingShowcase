@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<GlobalPackageReference Include="Nerdbank.GitVersioning" Version="3.6.133" />-->
+    <PackageVersion Include="Grpc" Version="2.46.3" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageVersion Include="NerdVision" Version="1.0.12" />
+    <PackageVersion Include="Rookout" Version="0.1.114" />
+  </ItemGroup>
+
+</Project>
