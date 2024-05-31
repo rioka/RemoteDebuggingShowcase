@@ -12,6 +12,7 @@ namespace RemoteDebuggingShowcase.NerdVision
         .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
         .AddJsonFile("appsettings.json")
         .AddUserSecrets<Program>()
+        .AddEnvironmentVariables("RDS")
         .Build();
 
       Initialize(config);
