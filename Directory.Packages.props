@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <!--<GlobalPackageReference Include="Nerdbank.GitVersioning" Version="3.6.133" />-->
+    <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageVersion Include="Grpc" Version="2.46.6" />
     <PackageVersion Include="NerdVision" Version="1.0.12" />
     <PackageVersion Include="Rookout" Version="0.1.146" />
