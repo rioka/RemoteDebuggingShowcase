@@ -1,5 +1,3 @@
-using System;
-
 namespace RemoteDebuggingShowcase.Core
 {
   public class Bar
